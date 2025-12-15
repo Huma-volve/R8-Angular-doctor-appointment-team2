@@ -1,0 +1,45 @@
+a{
+  text-decoration: none;
+}
+
+#contact .info .main h2 {
+  font-size: 40px;
+  color: #05162c;
+}
+
+#contact .info .main p {
+  color: #404448;
+  font-size: 20px;
+}
+
+#contact .info .contact-tool {
+    margin-top: 32px;
+}
+
+#contact .info .contact-tool .icon {
+  color: #145db8;
+}
+
+#contact .info .contact-tool .link {
+  color: #05162c;
+  cursor: pointer;
+}
+
+#contact .form-to-contact input{
+  height: 48px;
+
+}
+
+#contact .form-to-contact textarea{
+height: 195px;
+}
+
+#contact .form-to-contact input,textarea{
+    border: 1px solid #99A2AB;
+    
+}
+
+#contact .form-to-contact button{
+    background-color: #145DB8;
+    color: #ffffff;
+}
