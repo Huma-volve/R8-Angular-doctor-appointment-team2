@@ -1,0 +1,119 @@
+* {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f2f2f7;
+}
+
+/* Screen center */
+.screen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White card */
+.card-container {
+  width: 390px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto 0 0;
+}
+
+.back {
+  font-size: 16px;
+  color: #111;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+  color: #111;
+}
+
+/* Options */
+.option {
+  background: #f6f6f6;
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.left span {
+  font-size: 16px;
+  color: #1c2b39;
+}
+
+/* Icons */
+.visa {
+  color: #1a1f71;
+  font-size: 28px;
+}
+
+.mastercard {
+  color: #eb001b;
+  font-size: 28px;
+}
+
+.apple {
+  color: #000;
+  font-size: 22px;
+}
+
+.paypal {
+  color: #003087;
+  font-size: 22px;
+}
+
+/* Chevron */
+.chevron {
+  color: #bcbcbc;
+  font-size: 14px;
+}
+
+/* Radio */
+.radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #9e9e9e;
+}
+.brand-img {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+.arrow,
+.chevron {
+  color: #bcbcbc;
+  font-size: 14px;
+}

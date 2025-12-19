@@ -1,0 +1,24 @@
+<div class="notification-page">
+  <div class="notification-card">
+    <h3 class="title">Your Notification</h3>
+
+    <div class="notification-list">
+      <div
+        class="notification-item"
+        *ngFor="let n of notifications"
+      >
+        <div class="icon" [ngClass]="n.type">
+          <i class="fa-solid" [ngClass]="n.icon"></i>
+        </div>
+
+        <div class="content">
+          <strong>{{ n.title }}</strong>
+          <p>{{ n.message }}</p>
+        </div>
+
+        <span class="time">{{ n.time }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
